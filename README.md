@@ -12,5 +12,5 @@ You can run the project by running the following commands:
 * > `./bin/console` migrate
 * > `./bin/console server:run`
 
-**NB** Before running the above commands, please make sure that you added your email database configuration settings on the .env file. also configure the email settings on the .env file.
+**NB** Before running the above commands, please make sure that you have added your email and database configuration settings on the .env file.
 
