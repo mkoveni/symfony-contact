@@ -49,7 +49,7 @@ class ContactService
 
         $this->sendEmail('Thanks!', $data['email'], 'email/user.twig', $data);
 
-        //$this->sendEmail('New Message', getenv('SITE_ADMIN'), 'email/admin.twig');
+        $this->sendEmail('New Message', getenv('SITE_ADMIN'), 'email/admin.twig');
     }
 
     private function sendEmail($subject, $toAddress, $view, $params = null)
